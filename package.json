@@ -1,0 +1,20 @@
+{
+  "name": "clapped-desktop-main",
+  "version": "1.0.0",
+  "description": "Electron App um clapped.rip als desktop app zu nutzen",
+  "author": "OnyxDeveploment",
+  "main": "src/main.js",
+  "build": {
+    "appId": "de.fedox.clapped-desktop",
+    "productName": "CLAPPED.RIP - DESKTOP",
+    "icon": "assets/clapped.png"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^34.0.2",
+    "electron-installer-windows": "^3.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
